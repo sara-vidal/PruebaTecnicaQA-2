@@ -1,0 +1,21 @@
+{
+  "name": "prueba-tecnica-qa-2",
+  "version": "1.0.0",
+  "description": "This project contains the tests requested in the second exercise of the QA technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "terminal": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Sara Vidal García",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^11.2.0",
+    "esbuild": "^0.15.16"
+  }
+}
